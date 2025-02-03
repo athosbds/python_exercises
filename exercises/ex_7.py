@@ -1,13 +1,19 @@
-#Python Exercise 58: Improve the CHALLENGE 28 game where the computer will “think” of a number between 0 and 10. But now the player will try to guess until he gets it right, showing at the end how many guesses were needed to win.
-print('Estou pensando em número de 0 a 10! Tente Adivinhar!')
-import random
-order_list = list(range(0, 3))
-choose_computer = random.choice(order_list)
-hit = False
-tryagain = 0
-while not hit:
-    player = int(input('Seu Palpite: '))
-    tryagain += 1
-    if player == choose_computer:
-        hit = True
-print('Você acertou! Com {} tentativas'.format(tryagain))
+# Python Exercise 63: Write a program that reads any N integer and displays the first N elements of a Fibonacci Sequence on the screen.
+
+print('Sequeência de Fibonacci')
+
+number = int(input('Quantos termos quer mostrar? '))
+
+first_term = 0
+second_term = 1
+print('{} -> {}'.format(first_term, second_term), end ='')
+
+count = 3
+
+while count < number:
+     third_term = first_term + second_term
+     print('-> {}'.format(third_term), end='')
+     first_term = second_term
+     second_term = third_term
+     count += 1
+print('Fim')

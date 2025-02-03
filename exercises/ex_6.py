@@ -1,8 +1,18 @@
-#Python Exercise 57: Write a program that reads a person's gender, but only accepts the values ​​'M' or 'F'. If you are wrong, ask for it to be entered again until you have the correct value.
+#Python Exercise 62: Better CHALLENGE 61, asking the user if he wants to show some more terms. The program will exit when it says it wants to show 0 terms.
 
-genre = str(input('Informe seu Sexo [M/F]: ')).upper()
+first_term = int(input('Primeiro Termo: '))
+reason = int(input('Razão: '))
 
-while genre not in 'F' and 'M':
-    invalid = str(input('Inválido [M/F]: ')).upper
-else:
-    print('Registrado!')
+
+actually_term = first_term
+count = 1
+tot = 0
+more = 10
+while more != 0:
+    tot += more
+    while count <= tot:
+        print('{}'.format(actually_term), end=' -> ')
+        actually_term += reason
+        count += 1
+    more = int(input('\n Quantos termos você quer agora? '))
+print('Fim.')
