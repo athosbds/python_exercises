@@ -2,16 +2,16 @@
 
 
 flag = True
-count = 1
+count = 0
+number = 0
 while flag:
     number = int(input('Digite um número inteiro: '))
     if number == 999:
         flag = False
         
     else:
-        print('Fim')
         count += number
-print(count)
+print('Somatório: {}'.format(count))
     
         
   
