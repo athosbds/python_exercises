@@ -21,5 +21,3 @@ while True:
         break
 print('Venceu {} vezes'.format(count))
 
-
-
