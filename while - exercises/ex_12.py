@@ -13,11 +13,11 @@ while True:
     total = player + random_number
     result = 'P' if total % 2 == 0 else 'I'
 
-    if odd == result:
+    if odd.upper() == result:
         print('Você ganhou')
         count += 1
     else:
         print('GAME OVER! Você perdeu.')
         break
-print('Venceu {} vezes'.format(count))
+print('Venceu {} vez(es)'.format(count))
 
