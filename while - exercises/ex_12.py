@@ -19,5 +19,7 @@ while True:
     else:
         print('GAME OVER! Você perdeu.')
         break
-print('Venceu {} vezes'.format(count))      
+print('Venceu {} vezes'.format(count))
+
+#não comitto a!!!!
 
