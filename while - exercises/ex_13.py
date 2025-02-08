@@ -19,7 +19,6 @@ while True:
         continuous = str(input('Quer Continuar? [S/N]: ')).strip().upper()
     if continuous == 'N':
         break
-    
 print('Total de pessoas com mais de 18 anos: {}  \n Total de {} homem cadastrado \n E temos {} mulher(es) com menos de 20 anos. '.format(count, male_gender, female_age))
 
 
