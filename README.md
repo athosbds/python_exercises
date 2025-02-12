@@ -11,7 +11,8 @@ Os exercícios estão organizados por categorias, para facilitar a navegação e
 - **`listas`** → Exercícios para manipulação e operações com listas.
 - **`funções`** → Exercícios para criação e uso de funções em Python.
 - **`tratamento_de_erros`** → Exercícios sobre como tratar erros no código com `try-except`.
-- **Mais categorias em breve...**
+- **`dicionarios`** → Exercícios para manipulação e operações com dicionários.
+
 
 ## 🚀 Como Usar
 1. Clone este repositório:
