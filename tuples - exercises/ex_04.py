@@ -6,7 +6,7 @@ for x in range(0, 4):
     numbers = int(input('Digite um número: '))
     number += (numbers,)
     
-print(f'O número 9 aparecer {number.count(9)} vezes')
+print(f'O número 9 aparece {number.count(9)} vezes')
 if 3 in number:
     print(f'O 3 se encontra na posição {number.index(3)+1}')
 else:
