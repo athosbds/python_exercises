@@ -13,7 +13,7 @@ while True:
 
     if number % 2 == 0:
             even_numbers.append(number)
-    elif number % 2 == 1:
+    elif number % 2 != 0:
         odd_numbers.append(number)
 print(f'\n Números Normais: {normal_numbers}')
 print(f'Números Pares: {even_numbers}')
