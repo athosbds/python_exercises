@@ -15,3 +15,4 @@ if len(pile) == 0:
     print('Expressão Válida')
 else:
     print('Expressão Inválida.')
+
