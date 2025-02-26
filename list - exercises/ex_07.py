@@ -33,4 +33,3 @@ for person in people:
     if person[1] == lower:
         print(f'{person[0]}', end ='')
 print()
-

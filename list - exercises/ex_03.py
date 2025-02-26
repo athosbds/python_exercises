@@ -15,4 +15,3 @@ for i in range(0, 5):
                 break
             position += 1
 print(f'Os números adicionados na lista foram: {values}')
-    
