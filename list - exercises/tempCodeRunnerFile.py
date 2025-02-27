@@ -1,2 +1,2 @@
-  if number % 2 == 0:
-        unique_list.append(number[0])
+
+print(f'Maior número da segunda linha: {upper}')
