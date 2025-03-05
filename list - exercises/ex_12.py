@@ -8,9 +8,9 @@ while True:
     middle = (grade_one + grade_two) / 2
     grades.append([student, [grade_one, grade_two], middle])
     continuos = str(input('Quer Continuar? [S/N]: ')).strip().upper()
-    if continuos.upper() == 'N':
+    if continuos == 'N':
         break
-    elif continuos.upper() != 'S':
+    elif continuos != 'S':
         print('Tente Novamente!')
         break
 print('-'*35)
