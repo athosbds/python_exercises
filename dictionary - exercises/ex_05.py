@@ -7,7 +7,7 @@ while True:
     date['nome'] = str(input('Nome: '))
     
     while True:
-        date['sexo'] = str(input('Sexo: [M/F]: ')).upper()
+        date['sexo'] = str(input('Sexo: [M/F]: ')).upper().strip()
         if date['sexo'] in 'MF':
             break
         print('Tente por M ou F!')
@@ -15,7 +15,7 @@ while True:
     total_ages += date['idade']
     everyone.append(date.copy())
     while True:
-        continuos = str(input('Quer Continuar?: [S/N]: ')).upper()
+        continuos = str(input('Quer Continuar?: [S/N]: ')).upper().strip()
         if continuos in 'SN':
             break
         print('Tente S ou N!')
