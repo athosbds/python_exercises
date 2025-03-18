@@ -3,6 +3,6 @@ def area(width, length):
     calculate = width * length
     print(f'A área de um terreno{width}x{length} é de {calculate}m²')
 
-width_value = int(input('Largura: '))
+width_value = float(input('Largura: '))
 lenght_value = float(input('Comprimento: '))
 area(width_value, lenght_value)
