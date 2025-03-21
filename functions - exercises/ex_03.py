@@ -22,7 +22,6 @@ def counter(begin, last_item, by):
             total -= 1
         print(' \n Acabou essa merda')
         
-
 counter(1, 10, 1)
 counter(10, 0, -2)
 print('Agora é Sua vez!')
