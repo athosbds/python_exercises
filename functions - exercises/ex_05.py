@@ -7,12 +7,10 @@ def sorted(*value):
     memory.append(value)
     print(f'Sorteando 5 valores da lista: {value}')
     add_up(value)
-
 def add_up(space):
     total = 0
     for number in space:
         if number % 2 == 0:
             total += number
     print(f'Somando os valores pares d temos {total}')
-
 sorted()
