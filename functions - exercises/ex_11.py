@@ -2,7 +2,7 @@
 def interatictive_help():
     while True:
         print('\033[42m Sistema de Ajuda PyHELP\033[m')
-        helped = str(input('Função ou Biblioteca: '))
+        helped = str(input('Função ou Biblioteca: ')).lower()
         if helped != 'fim':
             print(f'\033[44m Acessando o manual do comando ´{helped}´\033[m')
             help(helped)
