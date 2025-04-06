@@ -6,8 +6,8 @@ def interatictive_help():
         if helped != 'fim':
             print(f'\033[44m Acessando o manual do comando ´{helped}´\033[m')
             help(helped)
-        else:
-            print('\033[41m      Até logo     \033[m')
+        else
+            print('\033[41Até logo\033[m')
             break
 interatictive_help()
 
