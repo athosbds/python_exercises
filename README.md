@@ -1,41 +1,36 @@
-# python_exercises
-# Exercícios de Python 🐍
+# Python Exercises 🐍
 
-Este repositório contém exercícios básicos de fixação em Python. O objetivo é praticar conceitos fundamentais da linguagem por meio de desafios simples e progressivos.
+[![Python](https://img.shields.io/badge/python-3.8+-blue)](https://www.python.org/)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+![Status](https://img.shields.io/badge/status-active-success)
 
-## 📌 Estrutura do Repositório
-Os exercícios estão organizados por categorias, para facilitar a navegação e o aprendizado:
+## 📚 Visão Geral
 
-- **`while`** → Exercícios focados em laços de repetição com `while`.
-- **`tuples`** → Exercícios para praticar a manipulação de tuplas.
-- **`listas`** → Exercícios para manipulação e operações com listas.
-- **`funções`** → Exercícios para criação e uso de funções em Python.
-- **`tratamento_de_erros`** → Exercícios sobre como tratar erros no código com `try-except`.
-- **`dicionarios`** → Exercícios para manipulação e operações com dicionários.
+Este repositório contém **exercícios básicos de fixação em Python**. O objetivo é praticar conceitos fundamentais da linguagem por meio de desafios simples e progressivos.
+
+**Foco principal**: Consolidar os fundamentos da programação Python através de exercícios práticos e explicações simplificadas.
+
+---
+
+## 🗂️ Estrutura do Repositório
+
+Os exercícios estão organizados por categorias para facilitar a navegação e o aprendizado:
+
+| Categoria | Descrição | Status |
+|-----------|-----------|---------|
+| **`while/`** | Exercícios focados em laços de repetição com `while` | ✅ Completo |
+| **`tuples/`** | Exercícios para praticar a manipulação de tuplas | ✅ Completo |
+| **`lists/`** | Exercícios para manipulação e operações com listas | ✅ Completo |
+| **`functions/`** | Exercícios para criação e uso de funções em Python | ✅ Completo |
+| **`error_handling/`** | Exercícios sobre tratamento de erros com `try-except` | ✅ Completo |
+| **`dictionary/`** | Exercícios para manipulação e operações com dicionários | ✅ Completo |
+
+---
 
 ## 🚀 Como Usar
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   ```
 
-## 🎯 Objetivo
-- Fixar os conceitos fundamentais de Python.
-- Praticar lógica de programação.
-- Melhorar a resolução de problemas através de código.
+### 1️⃣ Clone este repositório
 
-## 📚 Pré-requisitos
-Antes de realizar os exercícios, é importante ter conhecimento prévio nos seguintes tópicos:
-- Conceitos básicos de Python (sintaxe, variáveis e operadores).
-- Estruturas condicionais (`if`, `elif`, `else`).
-- Estruturas de repetição (`for`, `while`).
-- Manipulação de strings.
-- Listas e tuplas.
-- Funções (seção específica requer conhecimento de funções).
-- Dicionários (seção específica requer conhecimento de dicionários).
-- Tratamento de erros com `try-except`.
-
-## 📚 Ferramentas Necessárias
-- Python 3 instalado.
-- Editor de código (VS Code, PyCharm, etc.).
-
+```bash
+git clone https://github.com/athosbds/python_exercises.git
+cd python_exercises
